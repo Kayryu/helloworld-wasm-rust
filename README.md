@@ -6,7 +6,7 @@ This code is from this article:
 
 - https://aralroca.com/blog/first-steps-webassembly-rust
 
-Compile with:
+## Compile with Web
 
 ```
 wasm-pack build --target web
@@ -19,3 +19,17 @@ npx serve .
 ```
 
 And then open http://localhost:5000.
+
+
+## Compile with nodejs
+
+```
+wasm-pack build --target nodejs
+```
+
+Start with
+```
+npm install
+
+node ./index.js
+```
